@@ -1,0 +1,247 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #C6E115;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px 200px;
+}
+.Logo {
+    text-decoration-line:none ;
+    font-size: 1.8em;
+    color: #16AE58;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.navi a {
+    color: #16AE58;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-left: 30px;
+}
+.navi a:hover {
+    color: #23590b;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.M {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/ben.jpg) no-repeat;
+    background-size: right center;
+    background-attachment: fixed;
+}
+
+.M h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1;
+}
+.M h2 span {
+
+    text-shadow: 0 0 10px #FFFFFF, 1px -3px 0px rgba(49,247,25,0);
+    color: darkgreen ;
+    font-size: 2em;
+    margin: 20px 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+    
+}
+h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1ox
+    ;
+}
+.B {
+    color: #201F1D;
+    font-size: 80px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    border: 1px solid #2EAF4B;
+    border-radius: 30px;
+    padding: 12px;
+    background: url(images/wallpaper.jpg);
+    background-position: right 35% bottom 45%;
+
+}
+.B:hover {
+    color: darkgreen;
+    border-color: darkgreen;
+    transform: translateY(-10px);
+    transition:200ms ease-in;
+    box-shadow: 10px 5px 50px green;
+}
+.info h3 {
+    color: black;
+}
+
+img {
+    width: 200px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 10px rgba(1 1 1 / 15%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.ov h3{
+    color: black;
+}
+.ov {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 10px rgba(1 1 1 / 15%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin:0 auto;
+    margin-top: 30px;
+    
+}
+
+.card:hover, .ov:hover {
+    transform: translateY(-10px);
+    transition:0.7s ease;
+}
+.icon {
+    text-align: center;
+    font-size: 8em;
+}
+
+.info h3{
+    font-size: 1.9em;
+    text-align: center;   
+}
+
+
+.info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.Movies {
+    background-color: #16AE58;
+    
+}
+.Movies.content {
+    margin-top: 30px ;
+}
+
+.wallpaper img {
+    width: 100%;
+}
+
+
+
+
+.M-title {
+    font-size: 25px ;
+    color: black;
+    margin: 10px;
+    font-weight: 600;
+    
+}
+.M-title p {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left:9px ;
+}
+
+.imdb {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+}
+.MovieCard {
+    background-color: #fff;
+    border: 2.5px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+.MovieCard:hover {
+    transform: translateY(-10px);
+    transition:0.7s ease;
+}
+
+
+.Games {
+    background-color: #008000;
+}
+.Games .content {
+    margin-top: 30px;
+}
+.Gamescards {
+    background-color: #fff;
+    border: 2.5px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+#SHIRO {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.footer{
+    background-color: #201F1D;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+
